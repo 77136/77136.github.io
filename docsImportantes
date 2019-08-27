@@ -113,6 +113,29 @@ de qualquer forma, está fora do escopo do REST. No nosso exemplo, vamos sempre 
 
 
 
+/\/\/\/\\//\//\/\//\/\/\//\/\//\//\/\/\//\//\/\/\//\
+
+
+Para criar javadoc de uma classe que implementa de uma interface, basta fazer o seu :
+
+/**
+     * Gera código de acesso
+     * @param parametroA {@link TipoDoParametro}.
+     * @param parametroB {@link TipoDoParametro}.
+     * @return {@link TipoDoParametro}.
+ */
+
+na sua interface.
+
+E na classe que implementa basta colocar.
+
+/**
+     * {@inheritDoc}
+  */
+
+
+
+
 
 
 
